@@ -27,7 +27,7 @@ int main(){
   // Entrada de dados da carta 01
   printf("- Cadastro da Carta 01\n\n");
   printf("Informe o estado da sua carta: \n");
-  scanf(" %c", &estado1);
+  scanf("%c", &estado1);
 
   printf("- Informe o código da cidade de sua carta (ex: A01, B03): \n");
   scanf("%s", codigocarta1);
@@ -80,7 +80,7 @@ int main(){
 
   // Saída de dados da carta 01
   printf("Informações da carta 01:\n\n");
-  printf("Estado: %s\n", estado1);
+  printf("Estado: %c\n", estado1);
   printf("Código: %s\n",codigocarta1);
   printf("Nome da Cidade: %s\n", nomecidade1);
   printf("População: %d\n", populacao1);
@@ -92,7 +92,7 @@ int main(){
 
   // Saída de dados da carta 02
   printf("Informações da carta 02:\n\n");
-  printf("Estado: %s\n", estado2);
+  printf("Estado: %c\n", estado2);
   printf("Código da Cidade: %s\n",codigocarta2);
   printf("Nome da Cidade: %s\n", nomecidade2);
   printf("População: %d\n", populacao2);
